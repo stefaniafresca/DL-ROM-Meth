@@ -25,10 +25,10 @@ if __name__ == '__main__':
     config['N_h'] = 256
     config['n_h'] = 2
     config['N_t'] = 100
-    config['train_mat'] = 'data/S_advection_train_2params_21_21.mat'
-    config['test_mat'] = 'data/S_advection_test_2params_21_21.mat'
-    config['train_params'] = 'data/params_advection_train_2params_21_21.mat'
-    config['test_params'] = 'data/params_advection_test_2params_21_21.mat'
+    config['train_mat'] = 'S_train.mat'
+    config['test_mat'] = 'S_test.mat'
+    config['train_params'] = 'params_train.mat'
+    config['test_params'] = 'params_test.mat'
     config['checkpoints_folder'] = 'checkpoints'
     config['graph_folder'] = 'graphs'
     config['large'] = False
